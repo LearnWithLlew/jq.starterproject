@@ -5,7 +5,7 @@
 #
 
 
-#iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
 
 choco install jq
 refreshenv
@@ -15,6 +15,6 @@ refreshenv
 cd C:\Code\jq.starterproject
 
 # initialize and run tests
-run_tests.bat
+.\run_tests.bat
 
 echo "Done!"
