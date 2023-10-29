@@ -1,3 +1,4 @@
 #!/bin/sh
 
-sh -c "$(cat run_tests.bat)"
+jq -L . -nrf hello-world-test.jq > received.txt
+diff received.txt approved.txt
