@@ -1,0 +1,11 @@
+# Steps to create a new starter project
+- [ ] clone this project: `yourlanguage.starterproject`
+- [ ] modify the README.md to reflect the language name
+- [ ] change the `install.windows.ps1`
+  - [ ] replace `yourlanguage` with `<yourlanguage>`
+  - [ ] fill in your chocolatey install
+- [ ] make `run_tests.bat` work
+- [ ] add your starter test and code
+- [ ] fix CI `.github/workflows/test.yml` to work
+- [ ] in github settings, change the project to be a template project
+- [ ] add link to [Machine setup](https://github.com/JayBazuzi/machine-setup/blob/main/README.md)
